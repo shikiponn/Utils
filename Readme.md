@@ -24,12 +24,12 @@ counter()
 ### Example2  
 code コード
 ```python
-@timethis
 def counter():
     c = 0
     for i in range(10000000):
         c+=1
     print(c)
+    
 counter = timethis(counter)
 counter()
 ```
