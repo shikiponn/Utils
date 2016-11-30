@@ -2,10 +2,10 @@
 ## Time function 関数の実行時間計測
 
 ### Usage  
-Put decorater "@timethis" in front of a function you want to time. Or wrap the fuction object with timethis function.  
+Import timethis.py and put decorater "@timethis" in front of a function you want to time. Or wrap the fuction object with timethis function.  
 
 ### 使い方  
-"@timethis"というデコレータを関数の前につけてください。もしくは関数をtimethis()に渡してあげてください。
+timeshis.pyをインポートしたら。"@timethis"というデコレータを関数の前につけてください。もしくは関数をtimethis()に渡してあげてください。
 
 ### Example1  
 code コード
